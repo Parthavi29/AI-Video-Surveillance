@@ -1,0 +1,44 @@
+body {
+    background-image: url('images.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.heading {
+    background-color: white;
+    width: 80%;
+    margin: 0;
+    font-size: 25px;
+    border: 3px ridge #f25f4c;
+    box-shadow: 5px 5px 20px #f25f4c;
+}
+
+.b1 {
+    background-color: #ff8906;
+    color: white;
+    font-size: 20px;
+    border: 3px ridge whitesmoke;
+}
+
+.result {
+    background-color: #e53170;
+    font-size: 20px;
+    border: 2px solid white;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    line-height: 2.5;
+    text-align: center;
+    width: 100%;
+    background-color: #0f0e17;
+    color: white;
+}
+
+canvas {
+    border: 3px solid #a7a9be;
+    box-shadow: 5px 5px 20px #a7a9be;
+    border-radius: 20px;
+    margin-top: 80px;
+}
